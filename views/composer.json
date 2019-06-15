@@ -1,3 +1,17 @@
 {
-  
+  "name": "vinicius/mvc-example",
+  "description": "Example MVC PHP",
+  "license": "MIT",
+  "authors" : [
+    {
+      "name":"Vinicius Mattos",
+      "email":"vinimattos.rj@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4":{
+      "App\\":"source"
+    }
+  },
+  "require":{}
 }

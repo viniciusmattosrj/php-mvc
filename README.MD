@@ -16,7 +16,7 @@ cp ./docker-compose-example.php  ./docker-compose-example.php
 
 Agora suba o servidor:
 ```
-docker-compose up
+docker-compose up -d
 ```
 
 Em outra aba do terminal se conecte no container do php e suba bult-in

@@ -1,5 +1,5 @@
 # Sobre o Projeto
-Um simples projeto utilizando docker é PHP afim de exemplifica a estrutura MVC.
+Um simples projeto utilizando docker é PHP afim de exemplificar a estrutura MVC.
 - <a href="https://medium.com/trainingcenter/mvc-framework-usando-a-arquitetura-sem-c%C3%B3digo-de-terceiros-bf95a744c66d">MVC framework: usando a arquitetura sem código de terceiros</a> - Leonardo Vilarinho
 
 

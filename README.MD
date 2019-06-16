@@ -32,6 +32,8 @@ docker exec -it php bash
 php -S 10.11.0.2:8008 -t public
 ```
 
+No browser digite http://10.11.0.2:8008
+
 
 ## Contribuições
 Caso identifique pontos

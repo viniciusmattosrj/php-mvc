@@ -4,10 +4,27 @@
 
 ## Instalação
 
-Só realizar o git clone do projeto e ser feliz
+Realizar o git clone do projeto
 ```bash
 git clone git@github.com:viniciusmattosrj/php-mvc.git
 ```
+
+Entre pelo terminal ma pasta do projeto e rode:
+```
+cp ./docker-compose-example.php  ./docker-compose-example.php
+```
+
+Agora suba o servidor:
+```
+docker-compose up
+```
+
+Em outra aba do terminal se conecte no container do php e suba bult-in
+```
+docker exec -it postgres bash
+php -S 10.11.0.2:8008 -t public
+```
+
 
 ## Contribuições
 Caso identifique pontos

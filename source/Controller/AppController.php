@@ -8,25 +8,25 @@ final class AppController extends Controller
 {
     public static function index()
     {
-        return self::view('index');
+        return (new AppController)->view('index');
     }
 
     public static function list()
     {
         $users = (new User)->listAll();
-        return self::view('list', ['users' => $users]);
+        return (new AppController)->view('list', ['users' => $users]);
     }
 
     public static function write()
     {
-        (new User)->createNew(self::params('user'));
+        (new User)->createNew((new AppController)->params('user'));
         self::redirect('/list');
     }
 
     public static function logout()
     {
         (new User)->deleteAll();
-        self::redirect('/');
+        (new AppController)->redirect('/');
     }
 
 }

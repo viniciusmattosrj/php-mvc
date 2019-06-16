@@ -2,17 +2,19 @@
 
 namespace App;
 
-class Router{
+class Router
+{
 
     private $routes = [];
     private static $params = [];
 
     private function validate(string $method)
     {
-       return in_array($method, ['get', 'post']);
+        return in_array($method, ['get', 'post']);
     }
 
-    public function __call(string $method, array $args) {
+    public function __call(string $method, array $args)
+    {
         $method = strtolower($method);
 
         if (!$this->validate($method)) {
@@ -33,13 +35,11 @@ class Router{
         $method = strlower($_SERVER['REQUEST_METHOD']) ?? 'get';
         $route = $_GET['r'] ?? '/';
 
-        if(!isset($this->routes[$method]))
-        {
+        if (!isset($this->routes[$method])) {
             die('405 Method not allowed');
         }
 
-        if (!isset($this->routes[$method][$route]))
-        {
+        if (!isset($this->routes[$method][$route])) {
             die('404 Error');
         }
 
@@ -50,8 +50,7 @@ class Router{
 
     private function getParams(string $method)
     {
-        if($method == 'get')
-        {
+        if ($method == 'get') {
             return $_GET;
         }
 

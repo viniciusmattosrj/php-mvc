@@ -35,5 +35,4 @@ abstract class Controller
         header('Location:' . $url . $folders . '?r=' . $to);
         exit();
     }
-
 }

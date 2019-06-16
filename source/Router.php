@@ -22,7 +22,7 @@ class Router
         }
 
         [$route, $action] = $args;
-        if (isset($action) or !is_callable($action)) {
+        if (!isset($action) or !is_callable($action)) {
             return false;
         }
 

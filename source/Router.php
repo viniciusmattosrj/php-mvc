@@ -32,7 +32,7 @@ class Router
 
     public function run()
     {
-        $method = strlower($_SERVER['REQUEST_METHOD']) ?? 'get';
+        $method = strtolower($_SERVER['REQUEST_METHOD']) ?? 'get';
         $route = $_GET['r'] ?? '/';
 
         if (!isset($this->routes[$method])) {

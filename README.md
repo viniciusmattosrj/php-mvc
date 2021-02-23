@@ -1,9 +1,9 @@
-# Sobre o Projeto
+## Sobre o Projeto
 Um projeto simples utilizando docker é PHP afim de exemplificar a estrutura MVC.
 - <a href="https://medium.com/trainingcenter/mvc-framework-usando-a-arquitetura-sem-c%C3%B3digo-de-terceiros-bf95a744c66d">MVC framework: usando a arquitetura sem código de terceiros</a> - Leonardo Vilarinho
 
 
-## Requerimentos
+#### Requerimentos
 
 - Install <a href="https://docs.docker.com/install/">Docker</a>
 
@@ -11,12 +11,12 @@ Um projeto simples utilizando docker é PHP afim de exemplificar a estrutura MVC
 
 - PHP >= 7.1
 
-- Postgres >= 9.6 ou Mysql >= 5.7
+- Postgres >= 11 ou Mysql >= 5.7
 
 
-## Instalação
+#### Instalação
 Realizar o git clone do projeto base para o funcionamento da sua rede docker:
-```bash
+```
 git@github.com:viniciusmattosrj/projetos.git
 ```
 
@@ -31,7 +31,7 @@ docker-compose up -d
 ```
 
 Navege até dentro da pasta projetos e realize o git clone do projeto
-```bash
+```
 cd projetos && git@github.com:viniciusmattosrj/php-mvc.git
 ```
 
@@ -96,10 +96,10 @@ Para o acesso no <strong>MYSQL</strong> database administration tool, use http:/
   - password:
 
 
-## Contribuições
+#### Contribuições
 Caso identifique pontos
 que possam ser aprimorados envie o seu PR. ;-)
 
 
-## License
+#### License
 [MIT](https://choosealicense.com/licenses/mit/)

@@ -1,4 +1,4 @@
-[![pipeline status](https://github.com/viniciusmattosrj/php-pdo/badges/releaseCandidate/pipeline.svg)](https://github.com/viniciusmattosrj/php-pdo/commits/releaseCandidate)
+[![pipeline status](https://github.com/viniciusmattosrj/php-mvc/badges/releaseCandidate/pipeline.svg)](https://github.com/viniciusmattosrj/php-mvc/commits/releaseCandidate)
 
 ## Requerimentos
 
